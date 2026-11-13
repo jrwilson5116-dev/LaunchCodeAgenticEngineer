@@ -11,6 +11,8 @@ RUN apt-get update && apt-get install -y \
     procps \
     nodejs \
     npm \
+    openjdk-21-jdk \
+    gradle \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
