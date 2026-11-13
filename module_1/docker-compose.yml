@@ -7,6 +7,8 @@ services:
 
     image: traccar-dev:latest
     container_name: traccar-dev
+    ports:
+      - "8080:8080"
 
     working_dir: /workspace
 
